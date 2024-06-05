@@ -21,14 +21,27 @@ async function obtenerArtistas(categoria) {
     try {
         const response = await axios.request(options);
         const data = response.data;
-        const artistas = data.artists.items.map(item => ({
-            nombre: item.name,
-            popularidad: item.popularity,
-            seguidores: item.followers.total
-        }));
-        return artistas;
+        
+        console.log('Datos recibidos de la API:', JSON.stringify(data, null, 2)); // Verifica la estructura de los datos
+        
+        if (data.artists && data.artists.items) {
+            const artistas = data.artists.items.map(item => {
+                console.log('Item procesado:', item);
+                return {
+                    nombre: item.data.profile.name,
+                    popularidad: item.data.popularity,
+                    seguidores: item.data.followers.total
+                };
+            });
+            return artistas;
+        } else {
+            console.error("Estructura de datos inesperada:", data);
+            return [];
+        }
     } catch (error) {
         console.error("Error al obtener artistas:", error);
         return [];
     }
 }
+
+export { obtenerArtistas };
