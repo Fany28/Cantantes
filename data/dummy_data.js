@@ -5,7 +5,7 @@ export const CATEGORIES = [
   new Category('c1', 'Regional Mexicano', '#f5428d'),
   new Category('c2', 'Rock', '#f54242'),
   new Category('c3', 'Pop', '#f5a442'),
-  new Category('c4', 'Bachata', '#f5d142'),
+  new Category('c4', 'Hip Hop', '#f5d142'),
  
 ];
 
@@ -14,26 +14,20 @@ export const MEALS = [
     'm1',
     ['c1',],
     'Alfredo Olivas',
-    'affordable',
-    'simple',
+    '',
+    '',
     'https://www.kebuena.com.mx/wp-content/uploads/2022/12/Alfredo-Olivas-1.jpg',
-    20,
+    '',
     [
-      '30 años',
-      '1 Tablespoon of Olive Oil',
-      '1 Onion',
-      '250g Spaghetti',
-      'Spices',
-      'Cheese (optional)'
+      'NACIMIENTO:',
+      ' 1 de Octubre de 1993 (30 años), Ciudad de Obregón',
+      'PADRE:',
+      ' Alfredo Olivas Valenzuela',
+      'NOMINACIONES:',
+      ' Premio Lo Nuestro a la Canción del Año'
     ],
     [
-      'Cut the tomatoes and the onion into small pieces.',
-      'Boil some water - add salt to it once it boils.',
-      'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
-      'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
-      'The sauce will be done once the spaghetti are.',
-      'Feel free to add some cheese on top of the finished dish.'
+      'José Alfredo Olivas Rojas, más conocido como Alfredo Olivas, es un cantante, compositor y acordeonista de música regional mexicana especializado en los estilos de banda sinaloense, norteño sinaloense, norteño con tuba, y mariachi. También es conocido como Alfredito o el Patroncito.​'
     ],
     false,
     true,
@@ -45,26 +39,20 @@ export const MEALS = [
     'm2',
     ['c1',],
     'Ariel Camacho',
-    'affordable',
-    'simple',
+    '',
+    '',
     'https://claudiaperalta.com.mx/wp-content/uploads/2021/02/ARIEL-CAMACHO.png',
-    20,
+    '',
     [
-      '4 Tomatoes',
-      '1 Tablespoon of Olive Oil',
-      '1 Onion',
-      '250g Spaghetti',
-      'Spices',
-      'Cheese (optional)'
+      'NACIMIENTO:',
+      '8 de julio de 1992, Guamúchil',
+      'PADRES:',
+      ' Benito Camacho Sánchez, Reynalda Armida Barraza',
+      'ALBÚM',
+      'El Karma'
     ],
     [
-      'Cut the tomatoes and the onion into small pieces.',
-      'Boil some water - add salt to it once it boils.',
-      'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
-      'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
-      'The sauce will be done once the spaghetti are.',
-      'Feel free to add some cheese on top of the finished dish.'
+      'José Ariel Camacho Barraza, conocido como Ariel Camacho, fue un músico, compositor y multinstrumentista mexicano. Fue vocalista y fundador de Los Plebes del Rancho, con los que emprendió su carrera musical en 2013. Su último álbum en vida fue lanzado en el año 2014 titulado como El Karma.'
     ],
     false,
     true,
@@ -76,26 +64,26 @@ export const MEALS = [
     'm3',
     ['c1',],
     'Jenny Rivera',
-    'affordable',
-    'simple',
+    '',
+    '',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbFvAUuZzpOfksh7O-YFBsshKJoVLcVkoU8kbZvbaP-hE-3jYLPyqEVmPH4W5wLC__5Gw&usqp=CAU',
-    20,
+    '',
     [
-      '4 Tomatoes',
-      '1 Tablespoon of Olive Oil',
-      '1 Onion',
-      '250g Spaghetti',
-      'Spices',
-      'Cheese (optional)'
+      'NACIMIENTO',
+      '2 de julio de 1969, Long Beach, California, Estados Unidos',
+      'FALLECIMIENTO:',
+      '9 de diciembre de 2012, Iturbide',
+      'HIJOS:',
+      'Chiquis Rivera, Jenicka Lopez, Johnny Lopez, Jacqie Rivera, Michael Marin',
+      'HERMANOS:',
+      'Lupillo Rivera, Rosie Rivera, Juan Rivera, Gustavo Rivera, Pedro Rivera Jr.',
+      'CONYÚGE:',
+      'Esteban Loaiza (m. 2010–2012), Juan López (m. 1997–2003), José Trinidad Marín (m. 1984–1992)',
+      'PADRES:',
+      'Pedro Rivera, Rosa Saavedra'
     ],
     [
-      'Cut the tomatoes and the onion into small pieces.',
-      'Boil some water - add salt to it once it boils.',
-      'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
-      'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
-      'The sauce will be done once the spaghetti are.',
-      'Feel free to add some cheese on top of the finished dish.'
+      'Dolores Janney Rivera Saavedra, conocida como Jenni Rivera, fue una cantante estadounidense. En Estados Unidos y México se estima que vendió 25 millones de discos, ​ lo que la convierte en la intérprete de banda sinaloense más importante.'
     ],
     false,
     true,
@@ -107,26 +95,22 @@ export const MEALS = [
     'm4',
     ['c1',],
     'Espinoza Paz',
-    'affordable',
-    'simple',
+    '',
+    '',
     'https://yucatan.quadratin.com.mx/www/wp-content/uploads/2024/04/Espinoza-Paz-concierto-1160x700.jpg',
-    20,
+    '',
     [
-      '4 Tomatoes',
-      '1 Tablespoon of Olive Oil',
-      '1 Onion',
-      '250g Spaghetti',
-      'Spices',
-      'Cheese (optional)'
+      'NACIMIENTO:',
+      '29 de octubre de 1981 (edad 42 años), Angostura',
+      'HIJOS:',
+      'Claudia Chávez Kelly, Isidro Chávez Kelly',
+      'PADRES:',
+      ' María de la Paz Espinoza, Isidro Chávez',
+      'ESTATURA:',
+      '1,66 m'
     ],
     [
-      'Cut the tomatoes and the onion into small pieces.',
-      'Boil some water - add salt to it once it boils.',
-      'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
-      'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
-      'The sauce will be done once the spaghetti are.',
-      'Feel free to add some cheese on top of the finished dish.'
+      'Isidro Chávez Espinoza, conocido artísticamente como Espinoza Paz.​Es un músico y cantautor mexicano de música regional mexicana; especializado en los estilos de banda sinaloense, norteño y mariachi. Su nombre artístico proviene de su abuela materna y su madre.'
     ],
     false,
     true,
@@ -139,21 +123,25 @@ export const MEALS = [
     'm11',
     ['c2'],
     'Kurt Cobain',
-    'affordable',
-    'simple',
+    '',
+    '',
     'https://img2.rtve.es/v/16046575?w=1600&preview=01712311552267.jpg',
-    10,
+    '',
     [
-      '1 Slice White Bread',
-      '1 Slice Ham',
-      '1 Slice Pineapple',
-      '1-2 Slices of Cheese',
-      'Butter'
+      'NACIMIENTO:',
+      '20 de febrero de 1967, Aberdeen, Washington, Estados Unidos',
+      'FALLECIMIENTO:',
+      '5 de abril de 1994, Seattle, Washington, Estados Unidos',
+      'CONYÚGE:',
+      'Courtney Love (m. 1992–1994)',
+      'HIJAS:',
+      'Frances Bean Cobain',
+      'GRUPOS MUSICALES:',
+      ' Nirvana (1987 – 1994), Fecal Matter (1985 – 1986)',
+
     ],
     [
-      'Butter one side of the white bread',
-      'Layer ham, the pineapple and cheese on the white bread',
-      'Bake the toast for round about 10 minutes in the oven at 200°C'
+      'Kurt Cobain fue un músico y compositor estadounidense, conocido por haber sido el vocalista, guitarrista y principal compositor de la banda Nirvana. Es considerado como un icono y voz de la generación X.'
     ],
     false,
     false,
@@ -165,21 +153,25 @@ export const MEALS = [
     'm22',
     ['c2'],
     'Axl Rose',
-    'affordable',
-    'simple',
+    '',
+    '',
     'https://media.urgente24.com/p/f9cc74587c835c75c816c90556ec7a94/adjuntos/319/imagenes/002/981/0002981297/1200x0/smart/gettyimages-535921746jpg.jpg',
-    10,
+    '',
     [
-      '1 Slice White Bread',
-      '1 Slice Ham',
-      '1 Slice Pineapple',
-      '1-2 Slices of Cheese',
-      'Butter'
+      'NACIMIENTO:',
+      '6 de febrero de 1962 (edad 62 años), Lafayette, Indiana, Estados Unidos',
+      'CONYÚGE',
+      ' Erin Everly (m. 1990–1991)',
+      'GRUPOS MUSICALES:',
+      ' Guns N Roses (Desde 1985), Hollywood Rose, L.A. Guns (1984 – 1984), Rapidfire',
+      'PADRES:',
+      'William Bruce Rose, Sharon E. Rose',
+      'HERMANOS:',
+      ' Amy Bailey, Stuart Bailey'
     ],
     [
-      'Butter one side of the white bread',
-      'Layer ham, the pineapple and cheese on the white bread',
-      'Bake the toast for round about 10 minutes in the oven at 200°C'
+      'William Bruce Rose Jr., originalmente William Bruce Bailey, conocido por su nombre artístico Axl Rose, es un cantante, compositor, guitarrista y pianista estadounidense, ​ conocido por ser el líder y vocalista de la banda de hard rock Guns N'
+      
     ],
     false,
     false,
@@ -192,21 +184,22 @@ export const MEALS = [
     'm33',
     ['c2'],
     'Mago de Oz',
-    'affordable',
-    'simple',
+    '',
+    '',
     'https://www.rafabasa.com/wp-content/uploads/2015/10/2012_1_5001.jpg',
-    10,
+    '',
     [
-      '1 Slice White Bread',
-      '1 Slice Ham',
-      '1 Slice Pineapple',
-      '1-2 Slices of Cheese',
-      'Butter'
+      'ORIGEN:',
+      'Madrid, España',
+      'GENERO:',
+      'Rock en español',
+      'EMPEZO EN:',
+      '1968',
+      'ARTISTAS RELACIONADOS:',
+      'José Andrëa, Rata Blanca, Bürdel King, Warcry, Saurom, Héroes del Silencio, Ska-P, Stratovarius',
     ],
     [
-      'Butter one side of the white bread',
-      'Layer ham, the pineapple and cheese on the white bread',
-      'Bake the toast for round about 10 minutes in the oven at 200°C'
+      'Mägo de Oz es una banda española de Folk Metal fundada en Madrid el 7 de julio de 1988 por Txus di Fellatio. Consagrada como una de las bandas más reconocidas e importantes del Heavy Metal en español, a su vez siendo la más popular e influyente del Folk Metal hispano'
     ],
     false,
     false,
@@ -218,21 +211,22 @@ export const MEALS = [
     'm44',
     ['c2'],
     'Avril Lavigne',
-    'affordable',
-    'simple',
+    '',
+    '',
     'https://1159025897.rsc.cdn77.org/data/images/full/81377/avril-lavigne.jpg',
-    10,
+    '',
     [
-      '1 Slice White Bread',
-      '1 Slice Ham',
-      '1 Slice Pineapple',
-      '1-2 Slices of Cheese',
-      'Butter'
+      'NACIMIENTO:',
+      ' 27 de septiembre de 1984 (edad 39 años), Belleville, Canadá',
+      'CONYÚGE:',
+      'Chad Kroeger (m. 2013–2015), Deryck Whibley (m. 2006–2010)',
+      'PADRES:',
+      'Jean-Claude Lavigne, Judith-Rosanne Loshaw',
+      'GRUPO MUSICAL:',
+      'Young Artists for Haiti (2010 – 2010)'
     ],
     [
-      'Butter one side of the white bread',
-      'Layer ham, the pineapple and cheese on the white bread',
-      'Bake the toast for round about 10 minutes in the oven at 200°C'
+      'Avril Ramona Lavigne​ ​ es una cantante y compositora canadiense de pop punk.​ Críticos de revistas como Billboard la denominan «la Princesa del Pop Punk».​​ Comenzó su carrera musical en diciembre de 2000, cuando después de una presentación en una librería, despertó el interés del productor L. A'
     ],
     false,
     false,
@@ -245,24 +239,24 @@ export const MEALS = [
     'm111',
     ['c3'],
     'Paty Cantu',
-    'pricey',
-    'simple',
+    '',
+    '',
     'https://cdn2.excelsior.com.mx/media/pictures/2023/10/12/3018133.jpg',
-    45,
+    '',
     [
-      '300g Cattle Hack',
-      '1 Tomato',
-      '1 Cucumber',
-      '1 Onion',
-      'Ketchup',
-      '2 Burger Buns'
+      'NACIMIENTO:',
+      '25 de noviembre de 1983 (edad 40 años), Houston, Texas, Estados Unidos',
+      'GRUPO MUSICAL:',
+      'Lu (2000 – 2007)',
+      'PADRES:',
+      'Luis Armando Cantú, Mercedes Velasco',
+      'NOMINACIONES:',
+      'World Music Award a la Mejor Actuación Mundial en Vivo',
+      'PELICULAS:',
+      'Un disfraz para Nicolás'
     ],
     [
-      'Form 2 patties',
-      'Fry the patties for c. 4 minutes on each side',
-      'Quickly fry the buns for c. 1 minute on each side',
-      'Bruch buns with ketchup',
-      'Serve burger with tomato, cucumber and onion'
+      'Patricia Giovanna Cantú Velasco, conocida como Paty Cantú, es una cantante, compositora y actriz mexicana'
     ],
     false,
     false,
@@ -274,24 +268,24 @@ export const MEALS = [
     'm222',
     ['c3'],
     'Katty Perry',
-    'pricey',
-    'simple',
-    'https://hips.hearstapps.com/hmg-prod/images/katy-perry-met-gala-2024-alfombra-roja-ia-elle-6639d72fda990.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*',
-    45,
+    '',
+    '',
+    'https://www.billboard.com/wp-content/uploads/2023/11/Katy-Perry-may-2023-billboard-1548.jpg?w=1024',
+    '',
     [
-      '300g Cattle Hack',
-      '1 Tomato',
-      '1 Cucumber',
-      '1 Onion',
-      'Ketchup',
-      '2 Burger Buns'
+      'NACIMIENTO:',
+      '25 de octubre de 1984 (edad 39 años), Santa Bárbara, California, Estados Unidos',
+      'PAREJA:',
+      'Orlando Bloom (2019–)',
+      'CÓNYUGE:',
+      'Russell Brand (m. 2010–2012)',
+      'NOMINACIONES:',
+      'Premio Grammy al Álbum del Año',
+      'HERMANOS:',
+      'Angela Hudson, David Hudson'
     ],
     [
-      'Form 2 patties',
-      'Fry the patties for c. 4 minutes on each side',
-      'Quickly fry the buns for c. 1 minute on each side',
-      'Bruch buns with ketchup',
-      'Serve burger with tomato, cucumber and onion'
+      'Katheryn Elizabeth Hudson, más conocida como Katy Perry, es una cantante, compositora y personalidad de televisión estadounidense, que saltó a la fama en 2008 con «I kissed a girl» y «Hot n Cold» de su álbum debut One of the Boys.'
     ],
     false,
     false,
@@ -300,236 +294,164 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm4',
+    'm333',
+    ['c3'],
+    'Carla Morrison',
+    '',
+    '',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1AYw5sKWOUpgb1tFjVxa_kjzcQRjD7Pv8BA&s',
+    '',
+    [
+      'NACIMIENTO:',
+      '19 de julio de 1986 (edad 37 años), Tecate',
+      'HERMANOS:',
+      'Alex Hogan-Morrison',
+      'PADRES:',
+      'Hilario Morrison, Porfiria Flores',
+      'AÑOS ACTIVA:',
+      '2008- presente'
+    ],
+    [
+      'Carla Patricia Morrison Flores, conocida como Carla Morrison, es una cantante, ​ compositora, ​ actriz, ​ activista​ y productora​ mexicana.'
+    ],
+    false,
+    false,
+    false,
+    true
+  ),
+
+  new Meal(
+    'm444',
+    ['c3'],
+    'Adele',
+    '',
+    '',
+    'https://imagenes.20minutos.es/files/image_640_360/files/fp/uploads/imagenes/2021/10/09/adele.r_d.617-312.jpeg',
+    '',
+    [
+      'NACIMIENTO:',
+      '5 de mayo de 1988 (edad 36 años), Tottenham, Londres, Reino Unido',
+      'CÓNYUGE:',
+      'Simon Konecki (m. 2018–2021)',
+      'SOCIOS DE COMPOSICIÓN:',
+      'Bruno Mars, Sia, Linda Perry',
+      'PREMIOS:',
+      'Premio Grammy a la Mejor Grabación del Año'
+    ],
+    [
+      'Adele Laurie Blue Adkins, conocida simplemente como Adele, es una cantautora y multinstrumentista británica.​ Es una de las artistas musicales con mayores ventas del mundo, con más de 120 millones de ventas entre discos y sencillos.​'
+    ],
+    false,
+    false,
+    false,
+    true
+  ),
+
+  new Meal(
+    'm1111',
     ['c4'],
-    'Wiener Schnitzel',
-    'luxurious',
-    'challenging',
-    'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
-    60,
+    'Paulo Londra',
+    '',
+    '',
+    'https://www.losandes.com.ar/resizer/KwIzM-SiK4ixr64Eb3PtfDyHyJQ=/0x0:0x0/980x640/filters:quality(80):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/ORB76SBB6RE33LE33DCFP24OUE.jpg',
+    '',
     [
-      '8 Veal Cutlets',
-      '4 Eggs',
-      '200g Bread Crumbs',
-      '100g Flour',
-      '300ml Butter',
-      '100g Vegetable Oil',
-      'Salt',
-      'Lemon Slices'
+      'NACIMIENTO:',
+      '12 de abril de 1998 (edad 26 años), Ciudad de Córdoba, Argentina',
+      'NOMINACIONES:',
+      'Premio Grammy Latino al Mejor Nuevo Artista',
+      'SOCIOS DE COMPOSICIÓN:',
+      'Duki, Bizarrap, Lit Killah, Justin Quiles'
     ],
     [
-      'Tenderize the veal to about 2–4mm, and salt on both sides.',
-      'On a flat plate, stir the eggs briefly with a fork.',
-      'Lightly coat the cutlets in flour then dip into the egg, and finally, coat in breadcrumbs.',
-      'Heat the butter and oil in a large pan (allow the fat to get very hot) and fry the schnitzels until golden brown on both sides.',
-      'Make sure to toss the pan regularly so that the schnitzels are surrounded by oil and the crumbing becomes ‘fluffy’.',
-      'Remove, and drain on kitchen paper. Fry the parsley in the remaining oil and drain.',
-      'Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon.'
+      'Paulo Ezequiel Londra es un cantante y compositor argentino. Londra surgió de las competencias de freestyle de plaza que se celebraban de forma amateur, como El Quinto Escalón, en donde Londra empezó a ganar reconocimiento. En 2017 lanzó su primer sencillo, «Relax».'
     ],
     false,
-    false,
-    false,
-    false
-  ),
-
-  new Meal(
-    'm5',
-    ['c2', 'c5', 'c10'],
-    'Salad with Smoked Salmon',
-    'luxurious',
-    'simple',
-    'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
-    15,
-    [
-      'Arugula',
-      "Lamb's Lettuce",
-      'Parsley',
-      'Fennel',
-      '200g Smoked Salmon',
-      'Mustard',
-      'Balsamic Vinegar',
-      'Olive Oil',
-      'Salt and Pepper'
-    ],
-    [
-      'Wash and cut salad and herbs',
-      'Dice the salmon',
-      'Process mustard, vinegar and olive oil into a dessing',
-      'Prepare the salad',
-      'Add salmon cubes and dressing'
-    ],
-    true,
-    false,
-    true,
-    true
-  ),
-
-  new Meal(
-    'm6',
-    ['c6', 'c10'],
-    'Delicious Orange Mousse',
-    'affordable',
-    'hard',
-    'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
-    240,
-    [
-      '4 Sheets of Gelatine',
-      '150ml Orange Juice',
-      '80g Sugar',
-      '300g Yoghurt',
-      '200g Cream',
-      'Orange Peel'
-    ],
-    [
-      'Dissolve gelatine in pot',
-      'Add orange juice and sugar',
-      'Take pot off the stove',
-      'Add 2 tablespoons of yoghurt',
-      'Stir gelatin under remaining yoghurt',
-      'Cool everything down in the refrigerator',
-      'Whip the cream and lift it under die orange mass',
-      'Cool down again for at least 4 hours',
-      'Serve with orange peel'
-    ],
-    true,
-    false,
-    true,
-    false
-  ),
-
-  new Meal(
-    'm7',
-    ['c7'],
-    'Pancakes',
-    'affordable',
-    'simple',
-    'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
-    20,
-    [
-      '1 1/2 Cups all-purpose Flour',
-      '3 1/2 Teaspoons Baking Powder',
-      '1 Teaspoon Salt',
-      '1 Tablespoon White Sugar',
-      '1 1/4 cups Milk',
-      '1 Egg',
-      '3 Tablespoons Butter, melted'
-    ],
-    [
-      'In a large bowl, sift together the flour, baking powder, salt and sugar.',
-      'Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.',
-      'Heat a lightly oiled griddle or frying pan over medium high heat.',
-      'Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.'
-    ],
-    true,
-    false,
-    true,
-    false
-  ),
-
-  new Meal(
-    'm8',
-    ['c8'],
-    'Creamy Indian Chicken Curry',
-    'pricey',
-    'challenging',
-    'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
-    35,
-    [
-      '4 Chicken Breasts',
-      '1 Onion',
-      '2 Cloves of Garlic',
-      '1 Piece of Ginger',
-      '4 Tablespoons Almonds',
-      '1 Teaspoon Cayenne Pepper',
-      '500ml Coconut Milk'
-    ],
-    [
-      'Slice and fry the chicken breast',
-      'Process onion, garlic and ginger into paste and sauté everything',
-      'Add spices and stir fry',
-      'Add chicken breast + 250ml of water and cook everything for 10 minutes',
-      'Add coconut milk',
-      'Serve with rice'
-    ],
-    true,
     false,
     false,
     true
   ),
 
   new Meal(
-    'm9',
-    ['c9'],
-    'Chocolate Souffle',
-    'affordable',
-    'hard',
-    'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
-    45,
+    'm2222',
+    ['c4'],
+    'Eminem',
+    '',
+    '',
+    'https://generations.fr/media/news/thumb/1110x624_eminem-entre-dans-le-top-10-des-artistes-qui-ont-le-plus-vendu-dans-l-histoire_6515553e59621.webp',
+    '',
     [
-      '1 Teaspoon melted Butter',
-      '2 Tablespoons white Sugar',
-      '2 Ounces 70% dark Chocolate, broken into pieces',
-      '1 Tablespoon Butter',
-      '1 Tablespoon all-purpose Flour',
-      '4 1/3 tablespoons cold Milk',
-      '1 Pinch Salt',
-      '1 Pinch Cayenne Pepper',
-      '1 Large Egg Yolk',
-      '2 Large Egg Whites',
-      '1 Pinch Cream of Tartar',
-      '1 Tablespoon white Sugar'
+      'NACIMIENTO:',
+      '17 de octubre de 1972 (edad 51 años), St. Joseph, Misuri, Estados Unidos',
+      'HIJOS:',
+      'Hailie Jade Scott Mathers, Stevie Laine, Alaina Mathers',
+      'CÓNYUGE:',
+      'Kim Scott (m. 2006–2006), Kim Scott (m. 1999–2001)',
+      'HERMANOS:',
+      'Nathan Samra-Mathers, Michael Mathers, Sarah Mathers'
     ],
     [
-      'Preheat oven to 190°C. Line a rimmed baking sheet with parchment paper.',
-      'Brush bottom and sides of 2 ramekins lightly with 1 teaspoon melted butter; cover bottom and sides right up to the rim.',
-      'Add 1 tablespoon white sugar to ramekins. Rotate ramekins until sugar coats all surfaces.',
-      'Place chocolate pieces in a metal mixing bowl.',
-      'Place bowl over a pan of about 3 cups hot water over low heat.',
-      'Melt 1 tablespoon butter in a skillet over medium heat. Sprinkle in flour. Whisk until flour is incorporated into butter and mixture thickens.',
-      'Whisk in cold milk until mixture becomes smooth and thickens. Transfer mixture to bowl with melted chocolate.',
-      'Add salt and cayenne pepper. Mix together thoroughly. Add egg yolk and mix to combine.',
-      'Leave bowl above the hot (not simmering) water to keep chocolate warm while you whip the egg whites.',
-      'Place 2 egg whites in a mixing bowl; add cream of tartar. Whisk until mixture begins to thicken and a drizzle from the whisk stays on the surface about 1 second before disappearing into the mix.',
-      'Add 1/3 of sugar and whisk in. Whisk in a bit more sugar about 15 seconds.',
-      'whisk in the rest of the sugar. Continue whisking until mixture is about as thick as shaving cream and holds soft peaks, 3 to 5 minutes.',
-      'Transfer a little less than half of egg whites to chocolate.',
-      'Mix until egg whites are thoroughly incorporated into the chocolate.',
-      'Add the rest of the egg whites; gently fold into the chocolate with a spatula, lifting from the bottom and folding over.',
-      'Stop mixing after the egg white disappears. Divide mixture between 2 prepared ramekins. Place ramekins on prepared baking sheet.',
-      'Bake in preheated oven until scuffles are puffed and have risen above the top of the rims, 12 to 15 minutes.'
+      'Marshall Bruce Mathers III, conocido como Eminem, es un rapero, productor y actor estadounidense. Se le atribuye la popularización del hip hop en las clases medias y altas de Estados Unidos y es aclamado por la crítica como uno de los mejores raperos de todos los tiempos.​'
     ],
-    true,
     false,
-    true,
-    false
+    false,
+    false,
+    true
   ),
+
   new Meal(
-    'm10',
-    ['c2', 'c5', 'c10'],
-    'Asparagus Salad with Cherry Tomatoes',
-    'luxurious',
-    'simple',
-    'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    30,
+    'm3333',
+    ['c4'],
+    'Snoop Dogg',
+    '',
+    '',
+    'https://themovimientourbano.net/wp-content/uploads/2023/07/snoop-dogg-jpg.webp',
+    '',
     [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'NACIMINETO:',
+      '20 de octubre de 1971 (edad 52 años), Long Beach, California, Estados Unidos',
+      'HIJOS:',
+      'Cordell Broadus, Cori Broadus, Julian Corrie Broadus, Corde Broadus',
+      'CÓNYUGE:',
+      'Shante Broadus (m. 1997)',
+      'SOCIOS DE COMPOSICION:',
+      'Dr. Dre, Eminem, Tupac Shakur, Ice Cube'
     ],
     [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
+      'Calvin Cordozar Broadus Jr., conocido artísticamente como Snoop Dogg, anteriormente como Snoop Doggy Dogg y en raras ocasiones como Snoop Lion, es un rapero, empresario, productor y actor estadounidense.​ Es uno de los artistas de hip-hop con más éxito en el Gangsta rap.'
     ],
-    true,
-    true,
-    true,
+    false,
+    false,
+    false,
+    true
+  ),
+
+  new Meal(
+    'm4444',
+    ['c4'],
+    'Canserbero',
+    '',
+    '',
+    'https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/styles/articulo_760x422/public/2024-05/Canserbero--644x362.jpg?itok=mCYqfj9M',
+    '',
+    [
+      'NACIMIENTO:',
+      '11 de marzo de 1988, Caracas, Venezuela',
+      'FALLECIMIENTO:',
+      '19 de enero de 2015, Maracay, Venezuela',
+      'CAUSA DE MUERTE:',
+      'Asesinato (apuñalamiento)',
+      'PADRES:',
+      'José Rafael González Ollarves, Leticia Coromoto Oramas',
+      'AÑOS ACTIVO:',
+      '1999-2015'
+    ],
+    [
+      'Tirone José González Orama, conocido artísticamente como Canserbero, fue un rapero, compositor y activista venezolano. Es considerado como uno de los exponentes más significativos e influyentes en la historia del rap latino e independiente.​​ '
+    ],
+    false,
+    false,
+    false,
     true
   )
 ];
