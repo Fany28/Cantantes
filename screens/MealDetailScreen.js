@@ -1,27 +1,23 @@
 import { Image, Text, View, StyleSheet, ScrollView } from "react-native"
 
-import { MEALS } from '../data/dummy_data'
-import MealDetails from "../components/MealDetails"
+import { ARTISTAS} from '../data/dummy_data'
+
 
 function MealDetailScree({route, navigation}) {
     const mealId = route.params.mealId
 
-    const selectedMeal = MEALS.find((meal) => meal.id === mealId)
+    const selectedMeal = ARTISTAS.find((meal) => meal.id === mealId)
 
     return(
         <ScrollView>
             <Image style={styles.image} source={{ uri: selectedMeal.imageUrl }} />
             <Text style={styles.title}>{selectedMeal.title}</Text>
-            <MealDetails 
-                duration={selectedMeal.duration}
-                complexity={selectedMeal.complexity}
-                affordability={selectedMeal.affordability}
-            />
+
             <View>
                 <Text style={styles.subtitle}>Datos</Text>
-                {selectedMeal.ingredients.map(ingredients => <Text style={styles.textContent} key={ingredients}>{ingredients}</Text>)}
+                {selectedMeal.datos.map(datos => <Text style={styles.textContent} key={datos}>{datos}</Text>)}
                 <Text style={styles.subtitle}>Información</Text>
-                {selectedMeal.steps.map(step => <Text style={styles.textContent} key={step}>{step}</Text>)}
+                {selectedMeal.informacion.map(informacion => <Text style={styles.textContent} key={informacion}>{informacion}</Text>)}
             </View>
         </ScrollView>
     )

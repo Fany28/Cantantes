@@ -37,7 +37,7 @@ export default function App() {
             }} 
           />
           <Stack.Screen 
-            name="MealDetail" 
+            name="Detalles de Artistas" 
             component={MealDetailScree} 
           />
 

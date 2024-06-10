@@ -1,15 +1,15 @@
 import { View, Text, Image, Pressable, StyleSheet, Platform } from "react-native"
 import { useNavigation} from '@react-navigation/native'
-import MealDetails from "./MealDetails"
+import DetallesArtistas from "./DetallesArtistas"
 
-function MealItem({ id, title, imageUrl, duration, complexity, affordability }){
+function MealItem({ id, title, imageUrl}){
     console.log('title', title)
     console.log('imageUrl', imageUrl)
 
     const navigation = useNavigation()
    
     function selectMealItemHandler(){
-        navigation.navigate('MealDetail', { mealId: id})
+        navigation.navigate('DetallesArtistas', { mealId: id})
     }
 
     return(
@@ -29,11 +29,6 @@ function MealItem({ id, title, imageUrl, duration, complexity, affordability }){
                             {title}
                         </Text>
                     </View>
-                    <MealDetails 
-                        duration={duration}
-                        complexity={complexity}
-                        affordability={affordability}
-                    />
                 </View>
             </Pressable>
         </View>
