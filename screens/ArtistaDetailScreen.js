@@ -1,30 +1,30 @@
 import { Image, Text, View, StyleSheet, ScrollView } from "react-native"
 
 import { ARTISTAS} from '../data/dummy_data'
+import ArtistaDetail from "../components/ArtistaDetail"
 
+function ArtistaDetailScree({route, navigation}) {
+    const artistaId = route.params.artistaId
 
-function MealDetailScree({route, navigation}) {
-    const mealId = route.params.mealId
-
-    const selectedMeal = ARTISTAS.find((meal) => meal.id === mealId)
+    const selectedArtista = ARTISTAS.find((artista) => artista.id === artistaId)
 
     return(
         <ScrollView>
-            <Image style={styles.image} source={{ uri: selectedMeal.imageUrl }} />
-            <Text style={styles.title}>{selectedMeal.title}</Text>
+            <Image style={styles.image} source={{ uri: selectedArtista.imageUrl }} />
+            <Text style={styles.title}>{selectedArtista.title}</Text>
 
             <View>
                 <Text style={styles.subtitle}>Datos</Text>
-                {selectedMeal.datos.map(datos => <Text style={styles.textContent} key={datos}>{datos}</Text>)}
+                {selectedArtista.datos.map(datos => <Text style={styles.textContent} key={datos}>{datos}</Text>)}
                 <Text style={styles.subtitle}>Información</Text>
-                {selectedMeal.informacion.map(informacion => <Text style={styles.textContent} key={informacion}>{informacion}</Text>)}
+                {selectedArtista.informacion.map(informacion => <Text style={styles.textContent} key={informacion}>{informacion}</Text>)}
             </View>
         </ScrollView>
     )
 
 }
 
-export default MealDetailScree
+export default ArtistaDetailScree
 
 const styles = StyleSheet.create({
     image: {

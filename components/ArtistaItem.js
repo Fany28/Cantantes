@@ -1,23 +1,24 @@
 import { View, Text, Image, Pressable, StyleSheet, Platform } from "react-native"
 import { useNavigation} from '@react-navigation/native'
-import DetallesArtistas from "./DetallesArtistas"
+import ArtistaDetail from "./ArtistaDetail"
 
-function MealItem({ id, title, imageUrl}){
+
+function ArtistaItem({ id, title, imageUrl}){
     console.log('title', title)
     console.log('imageUrl', imageUrl)
 
     const navigation = useNavigation()
    
-    function selectMealItemHandler(){
-        navigation.navigate('DetallesArtistas', { mealId: id})
+    function selectArtistaItemHandler(){
+        navigation.navigate('ArtistaDetail', {artistaId: id})
     }
 
     return(
-        <View style={styles.mailItem}>
+        <View style={styles.artistaItem}>
             <Pressable 
                 android_ripple={{ color: '#ccc'}}
                 style={({ pressed }) => (pressed ? styles.buttonPressed : null) } 
-                onPress={selectMealItemHandler}
+                onPress={selectArtistaItemHandler}
             >
                 <View>
                     <View>
@@ -36,10 +37,10 @@ function MealItem({ id, title, imageUrl}){
 
 }
 
-export default MealItem
+export default ArtistaItem
 
 const styles = StyleSheet.create({
-    mealItem: {
+    artistaItem: {
         margin: 16,
         borderRadius: 8,
         overflow: Platform.OS === 'android' ? 'hidden' : 'visible',

@@ -2,14 +2,14 @@ import { View, Text, FlatList, StyleSheet } from "react-native";
 import { useLayoutEffect } from 'react'
 
 import { ARTISTAS, CATEGORIES } from "../data/dummy_data";
-import MealItem from "../components/MealItem";
+import ArtistaItem from "../components/ArtistaItem";
 
-function MealsOverviewScreen({ route, navigation }){
+function ArtistasOverviewScreen({ route, navigation }){
     const catId = route.params.categoryId
     console.log('catId', catId)
 
-    const displayedMeals = ARTISTAS.filter((mealItem) => {
-        return mealItem.categoryIds.indexOf(catId) >= 0
+    const displayedArtistas = ARTISTAS.filter((ArtistaItem) => {
+        return ArtistaItem.categoryIds.indexOf(catId) >= 0
     })
 
     useLayoutEffect(() => {
@@ -20,11 +20,11 @@ function MealsOverviewScreen({ route, navigation }){
         })
     }, [catId, navigation])
 
-    function renderMealItem(itemData) {
+    function renderArtistaItem(itemData) {
     
         return(
 
-            <MealItem
+            <ArtistaItem
                 id={itemData.item.id} 
                 title={itemData.item.title}
                 imageUrl={itemData.item.imageUrl}
@@ -37,15 +37,15 @@ function MealsOverviewScreen({ route, navigation }){
         <View style={styles.container}>
             <Text></Text>
             <FlatList 
-                data={displayedMeals}
+                data={displayedArtistas}
                 keyExtractor={(item) => item.id}
-                renderItem={renderMealItem}
+                renderItem={renderArtistaItem}
             />
         </View>
     )
 }
 
-export default MealsOverviewScreen
+export default ArtistasOverviewScreen
 
 const styles = StyleSheet.create({
     container: {

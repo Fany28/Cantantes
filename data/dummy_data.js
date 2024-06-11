@@ -1,5 +1,5 @@
 import Category from '../models/category';
-import Artista from '../models/meal';
+import Artista from '../models/artista';
 
 export const CATEGORIES = [
   new Category('c1', 'Regional Mexicano', '#A5D6A7'),

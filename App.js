@@ -4,8 +4,8 @@ import { StatusBar } from 'expo-status-bar';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack'
-import MealsOverviewScreen from './screens/MealsOverviewScreen';
-import MealDetailScree from './screens/MealDetailScreen';
+import ArtistasOverviewScreen from './screens/ArtistasOverviewScreen';
+import ArtistaDetailScree from './screens/ArtistaDetailScreen';
 
 const Stack = createStackNavigator();
 
@@ -28,8 +28,8 @@ export default function App() {
             component={CategoriesScreen}
           />
           <Stack.Screen 
-            name="MealsOverview" 
-            component={MealsOverviewScreen}
+            name="ArtistasOverview" 
+            component={ArtistasOverviewScreen}
             options={{
               title: 'All categories',
               headerTintColor: 'white',
@@ -38,7 +38,7 @@ export default function App() {
           />
           <Stack.Screen 
             name="Detalles de Artistas" 
-            component={MealDetailScree} 
+            component={ArtistaDetailScree} 
           />
 
         </Stack.Navigator>

@@ -14,7 +14,7 @@ class Artista {
     this.imageUrl = imageUrl;
     this.datos = datos;
     this.informacion = informacion;
-
+    
   }
 }
 
