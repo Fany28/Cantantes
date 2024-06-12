@@ -18,7 +18,7 @@ function ArtistaItem({ id, title, imageUrl}){
             <Pressable 
                 android_ripple={{ color: '#ccc'}}
                 style={({ pressed }) => (pressed ? styles.buttonPressed : null) } 
-                onPress={selectArtistaItemHandler}
+                onPress={()=>selectArtistaItemHandler(id)}
             >
                 <View>
                     <View>

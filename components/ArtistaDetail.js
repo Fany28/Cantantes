@@ -1,5 +1,6 @@
 import {StyleSheet } from 'react-native'
 
+
 function ArtistaDetail({informacion, datos, id, categoryIds, title, imageUrl}){
     return(
 
